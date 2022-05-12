@@ -1,15 +1,15 @@
-const contractAddress = "YOUR CONTRACT ADDRESS"; //Replace with your own contract address
+const contractAddress = "0x8FC9f701316e6c964c19BE81a8E82DB200ac2b4f"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
+const welcome_h1 = "Welcome to the Shiba Country Club NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = 'Shiba Country Club is A Pixelated Shiba NFT ART Based on Transparency and Mooning Mindset, Lead by an Honest Team and a community that could almost be a Real Family. Driven On the Goal of Success and Ambitions of creating a Polygon Leading NFT ART. Its a 5000 Supply Art with plenty of good traits and Utilities, and even some of the best Roadmaps Out there. Our Utilities are based on a great mix of all, whether it was Metaverse or Staking or even a P2E Game of our own, And also offering most special Merch that you will never find in any other Project';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
 const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
 const h2_presale_mint = "Public Minting Countdown";
-const p_presale_coming_soon = "We are working hard to launch the NFT Collection. Stay tuned for updates!";
+const p_presale_coming_soon = "We are working hard to launch SHIBA COUNTRY CLUB Collection to the moon. Stay tuned for updates!";
 const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale.. 😢";
 const p_presale_mint_whitelisted = "You're on the whitelist for the pre-sale! 🎉";
 const p_presale_mint_already_minted = "You've already claimed your whitelist mint. Thank you! 🎉";
