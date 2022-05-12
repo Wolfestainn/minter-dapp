@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Shiba Country Club NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'Shiba Country Club is A Pixelated Shiba NFT ART Based on Transparency and Mooning Mindset, Lead by an Honest Team and a community that could almost be a Real Family. Driven On the Goal of Success and Ambitions of creating a Polygon Leading NFT ART. Its a 5000 Supply Art with plenty of good traits and Utilities, and even some of the best Roadmaps Out there. Our Utilities are based on a great mix of all, whether it was Metaverse or Staking or even a P2E Game of our own, And also offering most special Merch that you will never find in any other Project';
+const welcome_p = 'Shiba Country Club is an NFT Collection Based on Transparency and Moon Mindset, Lead by an Honest Team and a community that could almost be a Real Family. Driven On the Goal of Success and Ambitions of creating a Polygon Leading NFT ART. Its a 5000 Supply Art with plenty of good traits and Utilities, and even some of the best Roadmaps Out there.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
