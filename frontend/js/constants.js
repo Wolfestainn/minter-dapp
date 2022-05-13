@@ -1,5 +1,5 @@
-const contractAddress = "0x8388174E2101c96c78F0B1c1ccC3E1F43B314Abc"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0xEe96d87Ea0ae26e3a843A891C35A11b84AD82c61"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Shiba Country Club NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
