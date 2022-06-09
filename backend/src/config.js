@@ -52,8 +52,8 @@ const CHAIN = 'polygon'; // only rinkeby or polygon
 const CONTRACT_NAME = 'Shiba Country Club';
 const CONTRACT_SYMBOL = 'SCC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x03A9Fbf58281014FB26fb174a0a80690525001fb';
-const TREASURY_ADDRESS = '0x03A9Fbf58281014FB26fb174a0a80690525001fb';
+const OWNER_ADDRESS = '0xaE9601cb7CF2C887a5d4A8D47Db023729A7D3309';
+const TREASURY_ADDRESS = '0xaE9601cb7CF2C887a5d4A8D47Db023729A7D3309';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 7; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -64,7 +64,7 @@ const PUBLIC_MINT_START_DATE = "2022-06-19T18:00:00+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-01-16T18:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x03A9Fbf58281014FB26fb174a0a80690525001fb"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0xaE9601cb7CF2C887a5d4A8D47Db023729A7D3309"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = ["0x03A9Fbf58281014FB26fb174a0a80690525001fb","0xaE9601cb7CF2C887a5d4A8D47Db023729A7D3309"]; // only update if you want to manually set the whitelisted addresses
