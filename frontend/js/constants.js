@@ -1,5 +1,5 @@
-const contractAddress = "0xEe96d87Ea0ae26e3a843A891C35A11b84AD82c61"; //Replace with your own contract address
-const chain = 'polygon'; // rinkeby or polygon
+const contractAddress = "0x0EBD6c62942174Ed01a9593f8577863c5869f519"; //Replace with your own contract address
+const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Shiba Country Club NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
@@ -17,7 +17,7 @@ const p_public_mint = "No whitelist needed. Public minting is now open! 🎉";
 const button_presale_coming_soon = "Get on the Whitelist";
 const button_presale_mint_whitelisted = "Mint Your Special NFT";
 const button_presale_mint_not_whitelisted = "Get on the Whitelist";
-const button_presale_already_minted = "Join The Community";
+const button_presale_already_minted = "Join The Shiba Degenerates List";
 const button_public_mint = "Mint Your NFT";
 const mint_failed = "Minting failed. 😢 Please try again.";
 

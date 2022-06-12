@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Shiba Country Club";
-const description = "Shiba Country Club is A Pixelated Shiba NFT ART Based on Transparency and Mooning Mindset, Lead by an Honest Team and a community that could almost be a Real Family. Driven On the Goal of Success and Ambitions of creating a Polygon Leading NFT ART. It's a 5000 Supply Art with plenty of good traits and Utilities, and even some of the best Roadmaps Out there. Our Utilities are based on a great mix of all, whether it was Metaverse or Staking or even a P2E Game of our own, And also offering most special Merch that you will never find in any other Project";
+const namePrefix = "The Shiba Country Club";
+const description = "Shiba Country Club is a FREE MINT Pixelated Shiba NFT ART Based on Transparency and Mooning Mindset, Lead by an Honest Team and a community that could almost be a Real Family. Driven On the Goal of Success and Ambitions of creating a Polygon Leading NFT ART. It's a 5000 Supply Art with plenty of good traits and Utilities, and even some of the best Roadmaps Out there. Our Utilities are based on a great mix of all, whether it was Metaverse or Staking or even a P2E Game of our own, And also offering most special Merch that you will never find in any other Project";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -46,28 +46,28 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'polygon'; // only rinkeby or polygon
+const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'Shiba Country Club';
+const CONTRACT_NAME = 'The Shiba Country Club';
 const CONTRACT_SYMBOL = 'SCC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xaE9601cb7CF2C887a5d4A8D47Db023729A7D3309';
 const TREASURY_ADDRESS = '0xaE9601cb7CF2C887a5d4A8D47Db023729A7D3309';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 7; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 0; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-06-19T18:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-07-24T18:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-01-16T18:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-06-19T18:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xaE9601cb7CF2C887a5d4A8D47Db023729A7D3309"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x03A9Fbf58281014FB26fb174a0a80690525001fb","0xaE9601cb7CF2C887a5d4A8D47Db023729A7D3309"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0xaE9601cb7CF2C887a5d4A8D47Db023729A7D3309",]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
@@ -75,7 +75,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Shiba Country Club Hidden NFT, Will be revealed 2 days after mint date"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "Shiba Country Club Hidden NFT, Will be revealed 2 days after public mint date"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreiclwqckedenq7vmhyldtesaxyxnuefvd5uygns44p6dzour2j5gsi"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
@@ -98,7 +98,7 @@ const solanaMetadata = {
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "0x03A9Fbf58281014FB26fb174a0a80690525001fb",
+      address: "0xaE9601cb7CF2C887a5d4A8D47Db023729A7D3309",
       share: 100,
     },
   ],
